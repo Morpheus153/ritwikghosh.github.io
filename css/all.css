@@ -515,7 +515,7 @@ transition: all 0.5s ease-in-out;
 	font-family: 'novecento_sans_widebook';
 	font-size: 30px;
 	line-height: 32px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	display: block;
 	margin: 0 0 55px;
 	padding: 5px 0 18px 80px;
@@ -528,23 +528,20 @@ transition: all 0.5s ease-in-out;
 #footer {
     width:100%;
     overflow:hidden;
-    display:table-footer-group;
+    /* display:footer-group; */
     background:#fff;
 }
 .footer-content {
-	max-width: 1170px;
-	margin: 0 auto;
-	padding: 45px 0 20px;
+  vertical-align: middle;
 	color: #a5a5a5;
 }
 .footer-content .social{
+  vertical-align: middle;
 	overflow:hidden;
-	margin: 0 auto 45px;
-	width: 670px;
 }
+
 .footer-content .social li{
-	float:left;
-	margin: 0 0 0 10px;
+	float: left;
 	border-radius: 50%;
 	behavior: url(css/PIE.htc);
 	text-indent: -9999px;
