@@ -318,9 +318,9 @@ h2.slogan{
 	margin: 0 0 27px;
 }
 .progress li span{
-	background: #50af6f;
+	/* background: #50af6f; */
 	color: #fff;
-	text-transform:uppercase;
+	/* text-transform:uppercase; */
 	display: block;
 	font-family: 'novecentosanswide';
 	font-weight: normal;
@@ -522,6 +522,8 @@ transition: all 0.5s ease-in-out;
 }
 .box_contact span.email{background: url(../images/icon_email2.png) no-repeat;}
 .box_contact span.phone{background: url(../images/icon_phone.png) no-repeat;}
+
+
 .box_contact span.skype{background: url(../images/icon_skype.png) no-repeat;}
 /*footer
  */
@@ -704,10 +706,10 @@ transition: all 0.5s ease-in-out;
 		background-image: url(../images/icon_email2@x2.png);
 		background-size:54px 41px;
 	}
-	.box_contact span.phone{
+	/* .box_contact span.phone{
 		background-image: url(../images/icon_phone@x2.png);
 		background-size:54px 54px;
-	}
+	} */
 	.box_contact span.skype{
 		background-image: url(../images/icon_skype@x2.png);
 		background-size:54px 51px;
