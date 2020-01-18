@@ -721,3 +721,22 @@ transition: all 0.5s ease-in-out;
 	}
 /* end add	 */
 }
+
+
+
+.btn {
+  background-color: #50af6f;
+  margin-left: 85%;
+  margin-bottom: 3%;
+  border: none;
+  color: #f8faf5;
+  padding: 6px 20px;
+  /* padding: auto; */
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #3b7a50;
+}
