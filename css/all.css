@@ -740,3 +740,24 @@ transition: all 0.5s ease-in-out;
 .btn:hover {
   background-color: #3b7a50;
 }
+
+
+
+.btn2 {
+  background-color: #50af6f;
+  /* margin-left: 30%; */
+  margin-top: 4%;
+  /* margin-bottom: 3%; */
+  border: none;
+  color: #f8faf5;
+  width:100%;
+  padding: 6px 50px;
+  /* padding: auto; */
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn2:hover {
+  background-color: #3b7a50;
+}
