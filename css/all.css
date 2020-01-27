@@ -120,7 +120,8 @@ body,
 html {height: 100%;}
 body{
 	margin:0;
-	color:#a4a7ac;
+	/* color:#a4a7ac; */
+  color: black;
 	font:18px Arial, Helvetica, sans-serif;
 	-webkit-text-size-adjust: none;
 }
@@ -133,11 +134,18 @@ a:hover{text-decoration:underline;}
 	display:table;
 }
 .wrapper-holder {
-	width:100%;
+	/* width:100%; */
     display:table-row;
-    background: #50af6f;
+    background-image: url("../images/cover_home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background: #50af6f; */
 }
-.wrapper-holder.grey{background: #28292b;}
+.wrapper-holder.grey{
+  background: white;
+  /* background: #28292b; */
+}
 #header {
 	max-width: 1170px;
 	margin: 0 auto;
@@ -205,7 +213,7 @@ h2.slogan{
 	font-family: 'novecento_sans_widebook';
 	font-size: 30px;
 	line-height: 32px;
-	color: #aeecc2;
+	color: #fff;
 	padding: 34px 0 50px 0;
 	background: url(../images/slogan_bg.gif) no-repeat 50% 0;
 }
@@ -216,16 +224,18 @@ h2.slogan{
 	margin: 0 auto;
 	padding: 93px 0 76px;
 	position:relative;
-	background: url(../images/icon_header.png) no-repeat 50% 0;
+	/* background: url(../images/icon_header.png) no-repeat 50% 0; */
 }
 #main h2{
 	display: block;
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'novecento_sans_widebook';
-	font-size: 30px;
+  font-weight: bold;
+
+	font-size: 40px;
 	line-height: 32px;
-	color: #fff;
+	color: #000;
 	margin: 0 0 81px;
 }
 .box_timeline_holder{
@@ -498,7 +508,7 @@ transition: all 0.5s ease-in-out;
 .clear{clear: both;}
 .images_holder{
 	float: left;
-	margin:5px 130px 0 0;
+	margin:5px 130px 15% 0;
 	width: 370px;
 }
 .images_holder img{
@@ -511,7 +521,7 @@ transition: all 0.5s ease-in-out;
 	margin: 54px 0 0 0;
 }
 .box_contact span{
-	color: #fff;
+	color: #000;
 	font-family: 'novecento_sans_widebook';
 	font-size: 30px;
 	line-height: 32px;
@@ -627,7 +637,7 @@ transition: all 0.5s ease-in-out;
 
 @media (-webkit-min-device-pixel-ratio:2) ,(min--moz-device-pixel-ratio:2),(-o-min-device-pixel-ratio:2/1),(min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){
 	#main {
-		background-image: url(../images/icon_header@x2.png);
+		/* background-image: url(../images/icon_header@x2.png); */
 		background-size:114px 46px;
 	}
 	.menu_trigger{
@@ -726,6 +736,7 @@ transition: all 0.5s ease-in-out;
 
 .btn {
   background-color: #50af6f;
+  /* background-color: #46484c; */
   margin-left: 85%;
   margin-bottom: 3%;
   border: none;
