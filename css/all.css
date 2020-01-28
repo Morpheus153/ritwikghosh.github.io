@@ -522,7 +522,7 @@ transition: all 0.5s ease-in-out;
 }
 .box_contact span{
 	color: #000;
-	font-family: 'novecento_sans_widebook';
+	/* font-family: 'novecento_sans_widebook'; */
 	font-size: 30px;
 	line-height: 32px;
 	/* text-transform: uppercase; */
@@ -755,7 +755,7 @@ transition: all 0.5s ease-in-out;
 
 
 .btn2 {
-  background-color: #50af6f;
+  background-color: #6cc644;
   /* margin-left: 30%; */
   margin-top: 4%;
   /* margin-bottom: 3%; */
